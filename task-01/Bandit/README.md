@@ -44,6 +44,6 @@ Then i created a file in rsa.private /tmp and stored it. **nano rsa.private** an
 - Level 17-->18 : **x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO** // there are 2 files password.new and passwords.old, so the only change is in the password. <br> 
 So I used **diff passwords.old passwords.new** and got the password.
 - Level 18-->19 : **cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8** // **ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme**  and entered password of Level 18. 
-- Level 19-->20 : **0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO** // **la -la**  saw that 3rd column shows group and it belongs to bandit20. The file bandit20-do cannot be directly executed by bandit19.<br>
+- Level 19-->20 : **0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO** // **ls -la**  saw that 3rd column shows group and it belongs to bandit20. The file bandit20-do cannot be directly executed by bandit19.<br>
 Tried **cat /etc/bandit_pass/bandit20** but could not be viewed as there was no permission. <br> 
 Used **./bandit20-do cat /etc/bandit_pass/bandit20**  and got the password. 
