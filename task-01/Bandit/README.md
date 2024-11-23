@@ -47,3 +47,7 @@ So I used **diff passwords.old passwords.new** and got the password.
 - Level 19-->20 : **0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO** // **ls -la**  saw that 3rd column shows group and it belongs to bandit20. The file bandit20-do cannot be directly executed by bandit19.<br>
 Tried **cat /etc/bandit_pass/bandit20** but could not be viewed as there was no permission. <br> 
 Used **./bandit20-do cat /etc/bandit_pass/bandit20**  and got the password. 
+
+---
+---
+Here is the Link for my [Medium Blog](https://medium.com/@uvdeepanand/overthewire-bandit-writeups-648a9cacfbd9) .
