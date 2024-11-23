@@ -3,7 +3,7 @@
 
 2. commit-one-file : `git add A.txt` and then committed using `git commit -m"First Commit"`
 
-3. commit-one-file-staged : `git reset B.txt` this will remove B.txt from staged and committed A.txxt with `git commit -m"commit of A.txt"` 
+3. commit-one-file-staged : `git reset B.txt` this will remove B.txt from staged and committed A.txt with `git commit -m"commit of A.txt"` 
 
 4. ignore-them : created a gitignore file `touch .gitignore` and edited the gitignore file adding `*.exe`, `*.o`, `*.jar` and `libraries/`. Then `git add .gitignore` and `git commit -m"Added gitignore"`
 
@@ -48,3 +48,6 @@ Again, `grep shit *` to check if any file contains "shit", `nano words.txt` modi
 Do `grep shit *` again and found the word "shit" is not there in words.txt and list.txt. `git verify`
 
 23. find-bug :  `git bisect start HEAD 1.0` then `git bisect run sh -c "openssl enc -base64 -A -d < home-screen-text.txt | grep -v jackass"` this will give the ID of the first bad commit. "9980b102c629cdd4a97524063291a124ff61a52e" was the commit ID. `git push origin 9980b102c629cdd4a97524063291a124ff61a52e:find-bug` and its passed.
+---
+---
+Here is the Link to my [Medium Blog](https://medium.com/@uvdeepanand/fracz-git-exercises-my-writeups-93b92e757ed2).
