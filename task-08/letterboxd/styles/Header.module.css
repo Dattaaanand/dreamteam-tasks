@@ -1,0 +1,22 @@
+.headerContainer{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    padding-left: 10px;
+    width: 55%;
+}
+.navBar{
+    padding-left: 13%;
+}
+.searchBox:hover{
+    background-color: rgba(67, 79, 96, 0.628);
+}
+.headerImage{
+    width: 80%;
+    height: 5%;
+}
+.navElement:hover{
+    transform: scale(1.02); 
+    color: aliceblue;
+}

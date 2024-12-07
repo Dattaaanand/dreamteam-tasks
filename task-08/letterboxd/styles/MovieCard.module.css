@@ -1,0 +1,71 @@
+.mainCard {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+}
+.container{
+    width: 60%;
+    display: flex;
+    overflow : hidden;
+}
+.imageStyle{
+    top: 0%;
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 80%);
+    mask-repeat: no-repeat;
+    mask-position: center;
+}
+.textOverlay {
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    color: white;
+    text-align: center;
+    font-family: TiemposHeadlineWeb-Bold,Georgia,serif;
+    padding: 1rem;
+  }
+  
+  .textOverlay h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+  }
+  
+  .ctaButton {
+    background-color: #17d21a; 
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-top: 1rem;
+  }
+  
+  .ctaButton:hover {
+    background-color: #099d3d;
+  }
+  .appleAndroid {
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+  }
+  
+  .appleAndroid Image {
+    width: 50px;
+    height: 50px;
+  }
+
+  .socialNetwork{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(164, 145, 145);
+  }

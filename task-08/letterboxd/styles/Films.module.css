@@ -1,0 +1,42 @@
+.mainContainer{
+    width: 100%;
+    background-color: #150a0a;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.mainHeading{
+    text-align: center;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; 
+    width: 50%;
+    padding-bottom: 30px;
+}
+.movieContainer{
+    background-color: #e58f162d;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(198, 181, 181, 0.3);
+    overflow: hidden;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.movieContainer:hover{
+    transform: scale(1.01); 
+    box-shadow: 0 0 1px 1px rgba(218, 200, 200, 0.996);
+}
+.movieInfo{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}

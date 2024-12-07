@@ -1,0 +1,49 @@
+.gridContainer{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gridHolder {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1vh;
+    width: 60%; 
+    max-width: 60%; 
+  }
+  
+  .featureBox {
+    background-color: #334455; 
+    border-radius: 8px; 
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s, box-shadow 0.3s; 
+  }
+  
+  .featureBox:hover {
+    transform: scale(1.01); 
+    box-shadow: 0 4px 10px rgba(198, 181, 181, 0.3);
+    background-color: #455768;
+  }
+  
+  .icon {
+    font-size: 2rem; 
+    margin-bottom: 10px;
+    color: #ffffff; 
+  }
+  .gridText{
+    padding-top: 4.5%;
+    margin-left: 20%;
+    padding-bottom: 0.5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(164, 145, 145);
+  }
+  .mainContainer{
+    background-color: #150a0a;
+    padding-bottom: 2%;
+  }
