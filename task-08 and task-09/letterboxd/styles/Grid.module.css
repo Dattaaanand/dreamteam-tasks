@@ -13,7 +13,7 @@
     max-width: 60%; 
   }
   
-  .featureBox {
+.gridContent {
     background-color: #334455; 
     border-radius: 8px; 
     padding: 10px;
@@ -22,28 +22,28 @@
     flex-direction: column;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
     transition: transform 0.3s, box-shadow 0.3s; 
-  }
+}
   
-  .featureBox:hover {
+.gridContent:hover {
     transform: scale(1.01); 
     box-shadow: 0 4px 10px rgba(198, 181, 181, 0.3);
     background-color: #455768;
-  }
+}
   
-  .icon {
+.icon {
     font-size: 2rem; 
     margin-bottom: 10px;
     color: #ffffff; 
-  }
-  .gridText{
+}
+.gridText{
     padding-top: 4.5%;
     margin-left: 20%;
     padding-bottom: 0.5%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     color: rgb(164, 145, 145);
-  }
-  .mainContainer{
+}
+.mainContainer{
     background-color: #150a0a;
     padding-bottom: 2%;
-  }
+}

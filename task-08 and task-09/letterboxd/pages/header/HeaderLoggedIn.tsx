@@ -1,10 +1,15 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from 'styles/Header.module.css'
 import classNames from 'classnames';
 
-const Header = () => {
+const HeaderLogged = () => {
+  const username = localStorage.getItem('username');
+  const logOut = () => {
+    localStorage.removeItem('username');
+    window.location.reload();
+  }
   return (
     <div className={styles.headerContainer}>
       <header className={styles.header}>
@@ -22,7 +27,8 @@ const Header = () => {
 
           <nav className={classNames(styles.navBar, "hidden md:flex space-x-5")}>
             <Link href="/" className={styles.navElement}>HOME</Link>
-            <Link href="/signup" className={styles.navElement}>CREATE ACCOUNT</Link>
+            <p className={styles.navElement}>WELCOME, {username}!</p>
+            <Link href="/" onClick={logOut} className={styles.navElement}>LOGOUT</Link>
             <Link href="/films" className={styles.navElement}>MOVIES</Link>
           </nav>
 
@@ -47,4 +53,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderLogged;
