@@ -30,15 +30,15 @@
     text-align: center;
     font-family: TiemposHeadlineWeb-Bold,Georgia,serif;
     padding: 1rem;
-  }
+}
   
-  .textOverlay h1 {
+.textOverlay h1 {
     font-size: 2rem;
     font-weight: bold;
     padding-bottom: 0.5rem;
-  }
+}
   
-  .ctaButton {
+.ctaButton {
     background-color: #17d21a; 
     color: white;
     border: none;
@@ -48,24 +48,24 @@
     border-radius: 5px;
     cursor: pointer;
     padding-top: 1rem;
-  }
+}
   
-  .ctaButton:hover {
+.ctaButton:hover {
     background-color: #099d3d;
-  }
-  .appleAndroid {
+}
+.appleAndroid {
     justify-content: center;
     display: flex;
     gap: 50px;
-  }
+}
   
-  .appleAndroid Image {
+.appleAndroid Image {
     width: 50px;
     height: 50px;
-  }
+}
 
-  .socialNetwork{
+.socialNetwork{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     color: rgb(164, 145, 145);
-  }
+}

@@ -7,14 +7,14 @@
     background-color: #150a0a;
   }
   
-  .backdropContainer {
+.backdropContainer {
     width: 60%;
     height: 50%;
     max-width: 1280px;
     margin-bottom: 20px;
-  }
+}
   
-  .backdropImage {
+.backdropImage {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -24,67 +24,67 @@
     mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 80%);
     mask-repeat: no-repeat;
     mask-position: center;
-  }
+}
   
-  .detailContainer {
+.detailContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 60%;
     max-width: 1280px;
-  }
+}
   
-  .posterContainer {
+.posterContainer {
     flex: 0 0 200px;
     margin-right: 20px;
     border-radius: 5px;
-  }
+}
   
-  .posterImage {
+.posterImage {
     width: 100%;
     height: auto;
     object-fit: cover;
     border-radius: 5px;
-  }
+}
   
-  .detailHolder h2 {
+.detailHolder h2 {
     font-size: xx-large;
     margin: 10px 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(204, 175, 175, 0.6);
-  }
+}
   
-  .detailHolder p {
+.detailHolder p {
     font-size: large;
     color: #aecadb;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-shadow: 2px 2px 3px rgba(211, 187, 187, 0.5);
-  }
+}
   
-  .castHolder {
+.castHolder {
     margin-top: 40px;
     margin-bottom: 40px;
 
-  }
+}
   
-  .castText {
+.castText {
     text-align: center;
     font-size: x-large;
     margin: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     padding-bottom: 20px;
-  }
+}
   
-  .gridHolder {
+.gridHolder {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 25px;
     width: 100%;
-  }
+}
   
-  .castColumn {
+.castColumn {
     text-align: center;
     display: flex;
     width: 100%;
@@ -95,48 +95,48 @@
     box-shadow: 0 4px 10px rgba(198, 181, 181, 0.3);
     background-color: rgba(118, 42, 10, 0.487);
     color: white;
-  }
-  .castColumn:hover{
+}
+.castColumn:hover{
     transform: scale(1.02); 
     box-shadow: 0 0 2px 2px rgba(218, 200, 200, 0.996);
-  }
-  .actorImage {
+}
+.actorImage {
     border-radius: 8px;
     width: 100%;
     border: white solid 1px;
-  }
+}
   
-  .castInfo {
+.castInfo {
     margin-top: 10px;
     text-align: center;
-  }
+}
   
-  .actorName {
+.actorName {
     font-weight: bold;
-  }
+}
   
-  .actorCharacter {
+.actorCharacter {
     font-size: 0.9rem;
     color: gray;
-  }
+}
   
-  .ratingText{
+.ratingText{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: x-large;
     font-weight: bold;
-  }
-  .ratingContainer{
+}
+.ratingContainer{
     width: 100%;
     justify-content: center;
     display: flex;
-  }
-  .ratingImg{
+}
+.ratingImg{
     width: 60%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-  }
-  .imageStyle{
+}
+.imageStyle{
     width: 70%;
-  }
+}

@@ -42,4 +42,4 @@ if __name__ == '__main__':
     app.run(debug=True)
 
 # Invoke-WebRequest -Uri http://127.0.0.1:5000/register -Method POST -Headers @{"Content-Type"="application/json"} -Body '{"email": "test@example.com", "username": "testuser", "password": "securepassword"}'
-# Used this to check whether connection was proper.eq
+# Used this to check whether connection was proper.
