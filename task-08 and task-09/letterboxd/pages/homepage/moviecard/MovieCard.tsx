@@ -1,9 +1,16 @@
-import React from 'react';
+"use client";
+import React, {useState, useEffect} from 'react';
 import styles from 'styles/MovieCard.module.css'
 import Image from 'next/image';
 import Link from 'next/link';
 
 const MovieCard = () => {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+    useEffect(() => {
+        const username = localStorage.getItem('username');
+        setIsLoggedIn(!!username);
+    }, [])
   return (
     <div className={styles.mainCard}>
       <div className={styles.container}>
@@ -14,9 +21,10 @@ const MovieCard = () => {
           <h1>Track films you've watched.</h1>
           <h1>Save those you want to see.</h1>
           <h1>Tell your friends what's good.</h1>
-          <Link href="/signup">
+          {isLoggedIn ?  null : <Link href="/signup">
             <button className={styles.ctaButton}>Get started — it's free!</button>
-          </Link>
+          </Link>}
+          
           <br/><br/><br />
           <div className={styles.socialNetwork}>
             <p className='text-lg'>The social network for film lovers. Also available on </p><br />
