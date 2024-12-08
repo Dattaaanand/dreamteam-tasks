@@ -5,7 +5,7 @@
 ## Introduction - About ME 
 ---
 Hello, I am Dattanand U D, of S3 CSE A.
-I am enthusiastic about technology and learning new stuff. I got to learn so many stuff in the process of Completing the Task. I have some basic knowledge about Cyber Security, and I wanna pursue my career in Development field. Currently I am thinking of investing my time into Mobile App Development, while the tasks taught me a lot about NextJS and how to fetch data from API and display it, Also learnt about dynamically displaying data.
+I am enthusiastic about technology and learning new stuff. I got to learn so many stuff in the process of Completing the Task. I have some basic knowledge about Cyber Security, and I wanna pursue my career in Development field. Currently I am thinking of investing my time into Mobile App Development. I am a quick learner and I look forward to learning many new skills. I am keen in learning more and more as there almost no end to knowledge. 
  
 ---
 
@@ -18,8 +18,8 @@ Published a Blog on both Git exercises and Bandit having writeups.
 Read about the best git practices - What to do and what not. <br> 
 Wrote a Blog about comparing Open-Source Licenses, Explaining how to contribute effectively into a project, and my key takewaways from `Linux Kernel`.
 4. Task-03 : I started with Chapter 12, and I realized that it was going to be time consuming. I had planned to complete at last but I ran out of time. 
-5. Task-04 : Completed Issues 1, 2 and 4. Issue 4 was ongoing when we got the news that Task-08 and Task-09 was more important. So paused Task-4 after completing its **1st Sub-part**. 
-6. Task-05 : Wrote an SRS Document using MS Word detailing the functionalities of the Letterboxd like website I was about to create. 
+5. Task-04 : Completed Issues 1, 2 and 3. Issue 4 was ongoing when we got the news that Task-08 and Task-09 was more important. So paused Task-4 after completing its **1st Sub-part**. 
+6. Task-05 : Made an SRS Document using MS Word detailing the functionalities of the Letterboxd like website I was about to create. 
 7. Task-06 : Completed the Wireframes of my Letterboxd like website for both `Mobile App View` and `Desktop Site View` with flows. 
 8. Task-07 : Completed the Design of my Letterboxd like website for both `Mobile App View` and `Desktop Site View`.
 9. Task-08 : Completed User Interface with few Funtionalities for Front-End. Though I could not make it responsive or make it in Mobile view as time was very limited, I tried to make the Desktop View look good. 
